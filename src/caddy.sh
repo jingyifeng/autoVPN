@@ -40,6 +40,6 @@ reverse_proxy https://$proxy_site {
         ;;
     esac
     [[ $1 != "new" && $1 != 'proxy' ]] && {
-        [[ ! -f ${is_caddy_site_file}.add ]] && echo "# see https://233boy.com/$is_core/caddy-auto-tls/" >${is_caddy_site_file}.add
+        [[ ! -f ${is_caddy_site_file}.add ]]  >${is_caddy_site_file}.add
     }
 }
