@@ -40,6 +40,11 @@ V2Ray 一键安装脚本 &amp; 管理脚本
 
 脚本的参数非常高效率并且超级易用，请掌握参数的使用
 
+# 安装
+```
+bash <(wget -qO- -o- https://raw.githubusercontent.com/233boy/v2ray/master/install.sh)
+
+```
 
 # 帮助
 
