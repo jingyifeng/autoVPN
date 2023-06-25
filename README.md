@@ -1,6 +1,6 @@
 # 介绍
 
-最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
+V2Ray 一键安装脚本 &amp; 管理脚本
 
 # 特点
 
@@ -112,8 +112,4 @@ Usage: v2ray [options]... [args]...
    bin [...]                                       运行 V2Ray 命令, 例如: v2ray bin help
    api, convert, tls, run, uuid  [...]             兼容 V2Ray 命令
    h, help                                         显示此帮助界面
-
-谨慎使用 del, ddel, 此选项会直接删除配置; 无需确认
-反馈问题) https://github.com/233boy/v2ray/issues
-文档(doc) https://233boy.com/v2ray/v2ray-script/
 ```
