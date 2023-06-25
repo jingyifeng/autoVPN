@@ -42,7 +42,7 @@ V2Ray 一键安装脚本 &amp; 管理脚本
 
 # 安装
 ```
-bash <(wget -qO- -o- https://raw.githubusercontent.com/233boy/v2ray/master/install.sh)
+bash <(wget -qO- -o- https://raw.githubusercontent.com/jingyifeng/autoVPN/master/install.sh)
 
 ```
 
