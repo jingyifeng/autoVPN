@@ -223,7 +223,7 @@ pass_args() {
     while [[ $# -gt 0 ]]; do
         case $1 in
         online)
-            err "如果想要安装旧版本, 请转到: https://github.com/233boy/v2ray/tree/old"
+            err "如果想要安装旧版本, 请转到: https://github.com/jingyifeng/v2ray"
             ;;
         -f | --core-file)
             [[ -z $2 ]] && {
