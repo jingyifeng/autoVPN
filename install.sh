@@ -1,5 +1,7 @@
 #!/bin/bash
 
+author=123
+
 # bash fonts colors
 red='\e[31m'
 yellow='\e[33m'
@@ -292,7 +294,7 @@ main() {
     # show welcome msg
     clear
     echo
-    echo "........... $is_core_name .........."
+    echo "........... $is_core_name script by $author .........."
     echo
 
     # start installing...
