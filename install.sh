@@ -1,5 +1,7 @@
 #!/bin/bash
 
+author=233boy
+
 # bash fonts colors
 red='\e[31m'
 yellow='\e[33m'
@@ -220,7 +222,7 @@ pass_args() {
     while [[ $# -gt 0 ]]; do
         case $1 in
         online)
-            err "如果想要安装旧版本, 请转到: https://github.com/jingyifeng/v2ray"
+            err "如果想要安装旧版本, 请转到: https://github.com/233boy/v2ray/tree/old"
             ;;
         -f | --core-file)
             [[ -z $2 ]] && {
